@@ -34,7 +34,7 @@ export class PetDetailsComponent implements OnInit {
         this.getPetInfo();
       }
     })
-    document.getElementById('like').disabled = true;
+   (<HTMLInputElement> document.getElementById('like')).disabled = true;
   }
 
   adoptPet(id){
