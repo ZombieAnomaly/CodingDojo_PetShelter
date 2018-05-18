@@ -1,0 +1,20 @@
+label, #submit{
+    display:block;
+    margin:5px;
+}
+#quotes{
+    display:flex;
+    flex-direction: column;
+}
+.quote{
+    width:90%;
+    margin:auto;
+    padding:10px;
+}
+.quoteAuthor{
+    color:blue;
+    margin-left:10%;
+}
+.quoteContent{
+    color:grey;
+}

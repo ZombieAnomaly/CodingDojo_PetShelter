@@ -1,0 +1,30 @@
+a{
+    margin-left:10px;
+}
+.petsTable{
+    width:25%;
+    margin-top:10px;
+    text-align: center;
+}
+.petsTable th{
+    color:white;
+}
+.petsTable tr:nth-child(odd){
+    background-color: lightgray;
+}
+.Sorting{
+    text-decoration: underline;
+}
+.Sorting:hover{
+    color:blueviolet;
+}
+button{
+    background-color: lightblue;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    margin-right:5px;
+}
+button:hover{
+    background-color: rgb(79, 151, 175);
+}

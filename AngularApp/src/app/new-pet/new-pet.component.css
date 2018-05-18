@@ -1,0 +1,47 @@
+
+a{
+    margin-left:10px;
+}
+label{
+    display:block;
+    color:grey;
+    font:28px;
+    margin:5px;
+}
+input{
+    height:20px;
+    border:1px solid black;
+    border-radius: 5px;
+    width:100%;
+}
+.errors{
+    color:red;
+}
+.newPet{
+    border:1px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    width:30%;
+    padding:1%;
+}
+.skill{
+    margin-left:10%;
+}
+.buttons{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    margin-top:5px;
+    display:flex;
+    justify-content: space-evenly;
+}
+#submit, #cancel{
+    background-color: lightblue;
+    color:white;
+    border:none;
+    font-size:18px;
+    padding:2px;
+    min-height:24px;
+    margin-right:5px;
+
+}

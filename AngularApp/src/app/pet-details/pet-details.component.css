@@ -1,0 +1,32 @@
+
+.wrapper{
+    width:50%;
+}
+h3{
+    width:20%;
+    display: inline-block;
+    text-align: center;
+}
+.header{
+    display: inline-block;
+    width:20%;
+    vertical-align: top;
+}
+.headerCont{
+    display:flex;
+    align-items: center;
+}
+a{
+    display:inline-block;
+}
+.skill{
+    margin-left:10%;
+}
+button{
+    margin-left:1%;
+    height:24px;
+    background-color:rgb(126, 213, 241);
+    border-radius: 5px;
+    color:white;
+    font-size: 18px;
+}

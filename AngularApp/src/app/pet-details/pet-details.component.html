@@ -1,0 +1,11 @@
+<div class="headerCont"><h3 class="header">Details about {{pet.name}}</h3><a [routerLink]="['/PetsApp']"> Home </a></div>
+<div class="wrapper">
+    <div><h3>Pet Type:</h3> <span>{{pet.type}}</span></div>
+    <div><h3>Description:</h3> <span>{{pet.description}}</span></div>
+    <div><h3>Skills:</h3>
+    <p class="skill" *ngFor="let skill of pet.skills; let i = index">Skill {{i+1}}: {{skill}}</p>
+    </div>
+    <div><h3>Likes:</h3> <span>{{pet.likes}}</span></div>
+    <button id="like" (click)="likePet(pet._id)">Like this pet</button>
+    <button (click)="adoptPet(pet._id)">Adopt this pet</button>
+</div>
