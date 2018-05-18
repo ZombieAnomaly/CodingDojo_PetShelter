@@ -6,6 +6,6 @@
     <p class="skill" *ngFor="let skill of pet.skills; let i = index">Skill {{i+1}}: {{skill}}</p>
     </div>
     <div><h3>Likes:</h3> <span>{{pet.likes}}</span></div>
-    <button id="like" (click)="likePet(pet._id)">Like this pet</button>
+    <button [disabled]="likeDisabled" id="like" (click)="likePet(pet._id)">Like this pet</button>
     <button (click)="adoptPet(pet._id)">Adopt this pet</button>
 </div>

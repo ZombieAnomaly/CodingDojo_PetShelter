@@ -10,7 +10,7 @@ import { ActivatedRoute, Params, Router } from '@angular/router';
 export class PetDetailsComponent implements OnInit {
   petID = "";
   pet = {};
-
+  likeDisabled = false; 
   constructor(private _httpService: HttpService, private _router: Router, private _route: ActivatedRoute) { }
 
   ngOnInit() {
@@ -34,7 +34,7 @@ export class PetDetailsComponent implements OnInit {
         this.getPetInfo();
       }
     })
-   (<HTMLInputElement> document.getElementById('like')).disabled = true;
+   this.likeDisabled = true;
   }
 
   adoptPet(id){
