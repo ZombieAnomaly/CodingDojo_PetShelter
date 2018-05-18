@@ -25,7 +25,7 @@ export class HttpService {
     let obs = this._http.put('/pets/' + id, data);
     return obs;
   }
-  likePet(id){
+  likePet(id:string){
     let obs = this._http.get('/pets/like/' + id);
     return obs;
   }
